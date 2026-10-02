@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#eeeae0"><meta name="description" content="An interactive property guide for the fictional Casa Sombra retreat."><title>Casa Sombra — find your somewhere</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="casa-nav"><a class="casa-wordmark" href="../">CASA <i>SOMBRA</i><span> / A HIDEAWAY</span></a><nav aria-label="Main navigation"><a href="#stay">The stay</a><a href="#explore">Explore</a><a href="#ritual">Slow days</a></nav><a class="nav-book" href="#explore">FIND YOUR PLACE <b>↗</b></a></header>
+<main>
+<section class="casa-hero" id="top"><img src="../assets/casa-sombra-hero.jpg" alt="Quiet adobe retreat and reflecting pool beneath a dusky mountain sky"><div class="casa-shade"></div><div class="hero-caption">A SMALL RETREAT IN A VERY LARGE LANDSCAPE&nbsp; / &nbsp;29° N</div><div class="casa-hero-copy"><span class="casa-kicker">A PLACE TO COME BACK TO YOURSELF</span><h1>Leave a little<br>room for <em>elsewhere.</em></h1><p>Stone, still water, and the kind of quiet that stays with you.</p><a href="#explore" class="casa-button">Wander the grounds <span>↓</span></a></div><div class="hero-foot"><span>CASA SOMBRA / FIELD NOTES 01</span><span>SCROLL AT YOUR OWN PACE</span></div></section>
+<section class="intro-block" id="stay"><div class="intro-label"><span>01 / THE FEELING</span><span>AN IMAGINARY PLACE</span></div><p>Hidden just beyond the last familiar turn, <em>Casa Sombra is made for the unhurried.</em> Follow the path to wherever the day takes you.</p><div class="intro-foot"><span>FOUR QUIET CORNERS</span><span>ONE VERY SLOW AFTERNOON</span><span>NO NEED TO BE ANYWHERE ELSE</span></div></section>
+<section class="explore-section" id="explore"><div class="explore-head"><div><span class="casa-kicker">02 / AROUND THE GROUNDS</span><h2>Find your<br><em>own corner.</em></h2></div><div class="explore-legend"><span>INTERACTIVE PROPERTY GUIDE</span><p>Drag to wander. Choose a marker to open its field note.</p></div></div>
+<div class="explore-layout">
+<div class="map-frame"><div class="map-topline"><span>CASA SOMBRA / SITE MAP</span><button type="button" id="map-reset">RE-CENTER <b>↺</b></button></div>
+<div class="map-viewport" id="map-viewport" tabindex="0" role="region" aria-label="Interactive property map. Drag to explore, use plus and minus to zoom, and select a numbered marker.">
+<div class="map-world" id="map-world">
+<svg class="site-map" viewBox="0 0 1000 600" role="img" aria-label="Illustrated map showing the house, garden, pool, and lookout">
+<defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#7a8067" opacity=".23"/></pattern></defs>
+<rect width="1000" height="600" fill="#d8d2bd"/><rect width="1000" height="600" fill="url(#dots)"/>
+<path d="M-20 82 Q165 10 329 64 T664 48 T1020 91 M-20 112 Q164 40 325 94 T666 78 T1020 121 M-20 143 Q173 72 325 126 T674 109 T1020 151 M-20 180 Q177 108 342 160 T690 144 T1020 184" fill="none" stroke="#aab093" stroke-width="2" opacity=".75"/>
+<path d="M-40 458 Q151 387 295 444 T598 436 T1030 400 M-40 490 Q148 421 294 476 T608 468 T1030 433 M-40 525 Q146 456 294 512 T615 501 T1030 469 M-40 562 Q146 492 294 547 T624 538 T1030 503" fill="none" stroke="#9ea688" stroke-width="2" opacity=".75"/>
+<path d="M-10 353 C139 279 223 320 309 350 S459 397 536 309 S726 228 791 293 S889 378 1023 301" fill="none" stroke="#b7a987" stroke-width="45" opacity=".48"/>
+<path d="M-10 353 C139 279 223 320 309 350 S459 397 536 309 S726 228 791 293 S889 378 1023 301" fill="none" stroke="#f1e9d6" stroke-width="31" stroke-dasharray="3 8"/>
+<path d="M60 314 C104 244 202 224 277 259 Q320 278 310 327 Q288 370 220 366 L89 359Z" fill="#afb49a" stroke="#7e8b72" stroke-width="3"/>
+<path d="M105 302 L162 257 L224 271 L263 320 L197 348 L128 340Z" fill="#c98b64"/><path d="M144 294 L182 270 L221 282 L244 318 L193 333 L145 323Z" fill="#ead9bd"/>
+<ellipse cx="557" cy="201" rx="121" ry="49" fill="#9eb9b4" stroke="#eff0df" stroke-width="6" transform="rotate(-9 557 201)"/>
+<path d="M455 200 Q558 154 660 192 M466 214 Q560 174 649 204" fill="none" stroke="#d5e1d6" stroke-width="3" opacity=".7"/>
+<rect x="703" y="372" width="147" height="77" rx="5" fill="#b27c58" stroke="#745542" stroke-width="3" transform="rotate(-8 703 372)"/><rect x="727" y="391" width="92" height="39" fill="#e4d5bc" transform="rotate(-8 727 391)"/>
+<path d="M628 493 Q708 465 817 491 T984 478" fill="none" stroke="#78876b" stroke-width="12" stroke-linecap="round"/>
+<g fill="#64795e"><circle cx="363" cy="236" r="22"/><circle cx="395" cy="249" r="16"/><circle cx="341" cy="269" r="13"/><circle cx="870" cy="224" r="23"/><circle cx="902" cy="243" r="14"/><circle cx="826" cy="243" r="15"/><circle cx="442" cy="474" r="17"/><circle cx="468" cy="487" r="22"/><circle cx="495" cy="468" r="13"/><circle cx="936" cy="352" r="18"/></g>
+<g fill="#7c896c" opacity=".6"><circle cx="363" cy="229" r="12"/><circle cx="870" cy="216" r="13"/><circle cx="468" cy="480" r="12"/><circle cx="936" cy="346" r="11"/></g>
+<path d="M301 349 C374 352 398 323 446 296 S490 257 533 239 M599 227 C656 240 680 281 712 333 M751 408 C715 447 648 476 545 477" fill="none" stroke="#eee4d0" stroke-width="5" stroke-dasharray="4 7" opacity=".95"/>
+<text x="88" y="410" fill="#5d665a" font-size="12" letter-spacing="2">CASA</text><text x="500" y="128" fill="#5d665a" font-size="12" letter-spacing="2">REFLECTING POOL</text><text x="747" y="472" fill="#5d665a" font-size="12" letter-spacing="2">GARDEN WALK</text><text x="82" y="203" fill="#89917a" font-size="10" letter-spacing="3">NORTH RIDGE</text><text x="810" y="150" fill="#89917a" font-size="10" letter-spacing="3">THE QUIET SIDE</text>
+</svg>
+<button class="map-pin pin-casa is-selected" type="button" data-place="casa" aria-label="Explore Casa, place 1" aria-pressed="true"><span>01</span><i>CASA</i></button>
+<button class="map-pin pin-pool" type="button" data-place="pool" aria-label="Explore the reflecting pool, place 2" aria-pressed="false"><span>02</span><i>WATER</i></button>
+<button class="map-pin pin-garden" type="button" data-place="garden" aria-label="Explore the garden walk, place 3" aria-pressed="false"><span>03</span><i>GARDEN</i></button>
+<button class="map-pin pin-lookout" type="button" data-place="lookout" aria-label="Explore the north lookout, place 4" aria-pressed="false"><span>04</span><i>LOOKOUT</i></button>
+</div><div class="map-controls"><span class="drag-hint"><i>✥</i> DRAG TO EXPLORE</span><div><button type="button" id="zoom-out" aria-label="Zoom out">−</button><button type="button" id="zoom-in" aria-label="Zoom in">+</button></div></div></div>
+<aside class="place-panel" aria-live="polite"><span class="panel-index" id="place-index">FIELD NOTE / 01</span><span class="place-symbol" id="place-symbol">✳</span><h3 id="place-title">The Casa</h3><p id="place-description">A cool stone room, a long open door, and just enough shade to lose track of the hour.</p><div class="place-meta"><span id="place-meta">THE HEART OF THE GROUNDS</span><b id="place-time">AFTERNOON</b></div><div class="place-list">
+<button type="button" class="place-row is-selected" data-place="casa"><span>01</span><b>The Casa</b><i>↗</i></button><button type="button" class="place-row" data-place="pool"><span>02</span><b>Still Water</b><i>↗</i></button><button type="button" class="place-row" data-place="garden"><span>03</span><b>Garden Walk</b><i>↗</i></button><button type="button" class="place-row" data-place="lookout"><span>04</span><b>North Lookout</b><i>↗</i></button>
+</div></aside></div>
+</section>
+<section class="ritual-section" id="ritual"><div><span class="casa-kicker">03 / TAKE IT SLOW</span><h2>Nothing is<br>waiting for you.</h2></div><div class="ritual-copy"><p>Wake when the light finds you. Walk until the path turns quiet. Stay for the last blue minute of the day.</p><a href="#top">RETURN TO THE LANDSCAPE ↑</a></div></section>
+</main>
+<footer><a class="casa-wordmark" href="../">CASA <i>SOMBRA</i><span> / A HIDEAWAY</span></a><span>A fictional retreat concept for Aequera Studio's portfolio.</span><span>FICTIONAL PLACE / NO BOOKINGS</span></footer>
+<script src="app.js"></script></body></html>

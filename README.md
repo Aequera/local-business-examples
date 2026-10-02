@@ -1,6 +1,6 @@
 # Aequera Studio — website examples
 
-Six small website concepts for fictional independent businesses. The live portfolio and links: `https://aequera.github.io/local-business-examples/`
+Seven small website concepts for fictional independent businesses. The live portfolio and links: `https://aequera.github.io/local-business-examples/`
 
 ## Examples
 
@@ -10,6 +10,7 @@ Six small website concepts for fictional independent businesses. The live portfo
 - **Moon Rabbit Bowl Lab** — an interactive ramen bowl builder with live customization.
 - **Lumen Botanica** — an editorial storefront for a botanical fragrance studio.
 - **Ember & Pine** — a twilight cabin retreat with a slow-travel feel.
+- **Casa Sombra** — a photo-led hideaway concept with an interactive property map.
 
 Every name, business, quote, price, address, and detail on these sample pages is fictional. The new concept pages include original portfolio artwork. The sites are concepts for showing layout, writing, and mobile-friendly design. They are not real businesses, and their example prices are not quotes.
 
@@ -21,7 +22,7 @@ For the first client, start with people you know and local businesses that lack 
 
 ## Publish
 
-This site uses plain HTML and CSS, with no install or build step. GitHub Pages can publish it at `https://aequera.github.io/local-business-examples/` from the `main` branch. Each demo lives in its own folder.
+This site uses plain HTML, CSS, and JavaScript, with no install or build step. GitHub Pages can publish it at `https://aequera.github.io/local-business-examples/` from the `main` branch. Each demo lives in its own folder.
 
 ## License
 
