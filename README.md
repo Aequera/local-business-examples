@@ -1,14 +1,17 @@
 # Aequera Studio — website examples
 
-Three small website concepts for imaginary neighborhood businesses. The live portfolio and links: `https://aequera.github.io/local-business-examples/`
+Six small website concepts for fictional independent businesses. The live portfolio and links: `https://aequera.github.io/local-business-examples/`
 
 ## Examples
 
 - **Daybreak Coffee** — friendly neighborhood café with a menu and visit details.
 - **Paw & Petal** — a gentle, welcoming pet groomer.
 - **Nest & Neat** — thoughtful home cleaning.
+- **Moon Rabbit Ramen** — an after-dark ramen bar with a cinematic menu.
+- **Lumen Botanica** — an editorial storefront for a botanical fragrance studio.
+- **Ember & Pine** — a twilight cabin retreat with a slow-travel feel.
 
-Every name, business, quote, price, address, and detail on these sample pages is fictional. The sites are concepts for showing layout, writing, and mobile-friendly design. They are not real businesses, and their example prices are not quotes.
+Every name, business, quote, price, address, and detail on these sample pages is fictional. The new concept pages include original portfolio artwork. The sites are concepts for showing layout, writing, and mobile-friendly design. They are not real businesses, and their example prices are not quotes.
 
 ## Interested in a website?
 
