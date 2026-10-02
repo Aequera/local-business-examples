@@ -7,7 +7,7 @@ Six small website concepts for fictional independent businesses. The live portfo
 - **Daybreak Coffee** — friendly neighborhood café with a menu and visit details.
 - **Paw & Petal** — a gentle, welcoming pet groomer.
 - **Nest & Neat** — thoughtful home cleaning.
-- **Moon Rabbit Ramen** — an after-dark ramen bar with a cinematic menu.
+- **Moon Rabbit Bowl Lab** — an interactive ramen bowl builder with live customization.
 - **Lumen Botanica** — an editorial storefront for a botanical fragrance studio.
 - **Ember & Pine** — a twilight cabin retreat with a slow-travel feel.
 
